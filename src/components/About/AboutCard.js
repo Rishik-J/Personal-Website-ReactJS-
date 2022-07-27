@@ -39,9 +39,6 @@ function AboutCard() {
             Some other activities I love include:
           </p>
           <ul>
-          <li className="about-activity">
-              <ImPointRight /> Entrepreneurship
-            </li>
             <li className="about-activity">
               <ImPointRight /> Playing Cricket
             </li>
@@ -50,6 +47,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> cycling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Entrepreneurship
             </li>
           </ul>
           <br />

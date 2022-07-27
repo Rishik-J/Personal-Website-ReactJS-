@@ -19,10 +19,13 @@ function Home2() {
                ALLOW ME TO<span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              My Programming journey started in high school... and its a long way from finished :)
+              My name is Rishik Janaswamy
               <br />
-              <br />I am fluent in the classics such as 
+              <br />I love programming, sports (especially cricket!), and music
+              <br />
+              <br />
               <i>
+                My favorite lanagues Include
                 <b className="purple"> Python & Java </b>
               </i>
               <br />

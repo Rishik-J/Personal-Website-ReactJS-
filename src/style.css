@@ -345,8 +345,8 @@ button:focus {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
-  text-align: left;
+  font-size: 1.3em !important;
+  text-align: center;
 }
 
 .home-about-social {
@@ -462,6 +462,7 @@ button:focus {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background: linear-gradient(-45deg, #2d0c01, #001a04, #090136, #410c01);
+  color: white;
 }
 
 .project-card {
@@ -583,6 +584,7 @@ button:focus {
   font-size: .3em;
   text-align: center;
 }
+
 
 @media (max-width: 767px) {
   .tech-icons {

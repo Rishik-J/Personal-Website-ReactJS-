@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import ProjectTechstack from "./ProjectTechstack";
 
 function Projects() {
   return (
@@ -88,6 +89,10 @@ function Projects() {
             />
           </Col>
         </Row>
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+        <ProjectTechstack />
       </Container>
     </Container>
   );
