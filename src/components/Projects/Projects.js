@@ -8,7 +8,6 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
-import Techstack from "/Users/rishikdev/Desktop/SummerProjects/Web Dev react/Portfolio/src/components/About/Techstack.js";
 
 function Projects() {
   return (
