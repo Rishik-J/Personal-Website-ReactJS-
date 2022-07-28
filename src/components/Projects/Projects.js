@@ -27,8 +27,20 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Automated News Crawler with Sentiment Analysis"
-              description="Created an Automated news crawler to find, summerize, and understand sentiment arround relevent news to influence investment decisions"
+              description="Created an Automated news crawler to find, summerize, and understand sentiment arround relevent news to influence investment decision. 
+              Leverged Python and NLP"
               ghLink="https://github.com/Rishik-J/Python-ML-Projects/blob/main/AutomatedStockNewsSentimentAnalysis.ipynb"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Financial Engineering"
+              description="Using staistics to develop algorithms to model financal data. Created a 
+              Binomial assest pricing model for European Options and Implimented the Black-Sholes model in python. Continuing to work and improve my financial engineering skils through projects like these ."
+              ghLink="https://github.com/Rishik-J/Python-ML-Projects/tree/main/Quant"
             />
           </Col>
 
@@ -37,7 +49,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Mario RLE"
-              description="Used the OpenAI Gym and a reinforcement learning model to train the Mario 'character' to complete an obsticle course game"
+              description="Used the OpenAI Gym and a reinforcement learning model to train the Mario 'character' to complete an obsticle course game. Leveraged Python, PyTourch, and OpenAI"
               ghLink="https://github.com/Rishik-J/Python-ML-Projects/blob/main/MarioRLE.ipynb"
             />
           </Col>
@@ -46,21 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Q&A App with Anvil"
+              description="Built a WebApp where the model reads a user's inputted text and uses ML to answer questions about the content of the text. Leveraged Python and Anvil"
+              ghLink="https://github.com/Rishik-J/Python-ML-Projects/blob/main/Q%26A%20app%20with%20Anvil.ipynb"            
             />
           </Col>
 
@@ -68,9 +68,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Personal Portfolio Website"
+              description="Developed this website to share my interests, projects, and connect with a large audience. Leveraged ReactJs, JavaScript, CSS, HTML"
+              ghLink="https://github.com/Rishik-J/Web-Dev-React"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -79,10 +79,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Sentiment Analysis using Deep Learning"
+              description="Trained a range of NLP models leveraging neural networks to detect sentiment arround news and tweets. Leveraged Python and TensorFlow"
+              ghLink="https://github.com/Rishik-J/Python-ML-Projects/tree/main/Sentiment%20Analysis"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
