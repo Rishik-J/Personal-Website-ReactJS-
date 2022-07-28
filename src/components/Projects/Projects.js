@@ -71,7 +71,6 @@ function Projects() {
               title="Personal Portfolio Website"
               description="Developed this website to share my interests, projects, and connect with a large audience. Leveraged ReactJs, JavaScript, CSS, HTML"
               ghLink="https://github.com/Rishik-J/Web-Dev-React"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
@@ -82,7 +81,6 @@ function Projects() {
               title="Sentiment Analysis using Deep Learning"
               description="Trained a range of NLP models leveraging neural networks to detect sentiment arround news and tweets. Leveraged Python and TensorFlow"
               ghLink="https://github.com/Rishik-J/Python-ML-Projects/tree/main/Sentiment%20Analysis"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
