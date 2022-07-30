@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/newNLP.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 import ProjectTechstack from "./ProjectTechstack";
+import FE from "../../Assets/Projects/FE.jpeg"
+import mario from "../../Assets/Projects/mario.png"
+import brain from "../../Assets/Projects/brain.png"
+import reactIcon from "../../Assets/Projects/react.png"
+import QandA from "../../Assets/Projects/Q&A.png"
 
 function Projects() {
   return (
@@ -35,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={FE}
               isBlog={false}
               title="Financial Engineering"
               description="Using staistics to develop algorithms to model financal data. Created a 
@@ -46,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={mario}
               isBlog={false}
               title="Mario RLE"
               description="Used the OpenAI Gym and a reinforcement learning model to train the Mario 'character' to complete an obsticle course game. Leveraged Python, PyTourch, and OpenAI"
@@ -56,7 +57,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={QandA}
               isBlog={false}
               title="Q&A App with Anvil"
               description="Built a WebApp where the model reads a user's inputted text and uses ML to answer questions about the content of the text. Leveraged Python and Anvil"
@@ -66,7 +67,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={reactIcon}
               isBlog={false}
               title="Personal Portfolio Website"
               description="Developed this website to share my interests, projects, and connect with a large audience. Leveraged ReactJs, JavaScript, CSS, HTML"
@@ -76,7 +77,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={brain}
               isBlog={false}
               title="Sentiment Analysis using Deep Learning"
               description="Trained a range of NLP models leveraging neural networks to detect sentiment arround news and tweets. Leveraged Python and TensorFlow"

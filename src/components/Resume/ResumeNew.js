@@ -8,9 +8,6 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink =
-  "https://raw.githubusercontent.com/Rishik-J/Web-Dev-React/6fbb19f441d2267217de7d71af16173c2e707540/src/Assets/RishikJanaswamyResume.pdf";
-
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -22,7 +19,7 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -30,9 +27,9 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download
           </Button>
-        </Row>
+        </Row> */}
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
@@ -40,7 +37,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -48,9 +45,9 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download
           </Button>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
