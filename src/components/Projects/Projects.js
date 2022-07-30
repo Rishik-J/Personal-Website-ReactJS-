@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/newNLP.png";
 import ProjectTechstack from "./ProjectTechstack";
 import FE from "../../Assets/Projects/FE.jpeg"
